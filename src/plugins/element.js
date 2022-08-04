@@ -4,7 +4,7 @@ import {
   Container, Aside, Main, Header, Menu, Submenu,
   MenuItemGroup, MenuItem, Breadcrumb, BreadcrumbItem,
   Card, Row, Col, Table, TableColumn, Switch, Tooltip
-  ,Pagination,Dialog,MessageBox,Tag,Tree,Select,Option
+  ,Pagination,Dialog,MessageBox,Tag,Tree,Select,Option,Cascader
  } from 'element-ui'
 
 // 导入弹框提示
@@ -36,6 +36,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 Vue.prototype.$message = Message   //这样挂载原型上 直接使用this.$message
 Vue.prototype.$confirm = MessageBox.confirm  //这样挂载原型上 直接使用this.$confirm
 
