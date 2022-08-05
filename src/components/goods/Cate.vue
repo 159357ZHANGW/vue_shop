@@ -17,8 +17,7 @@
 
         
       <!-- 表格 -->
-        <tree-table class="treeTable" :data="catelist" :selection-type="false" :columns="columns" show-index 
-        :expand-type="false" border>
+        <tree-table class="treeTable" :data="catelist" :selection-type="false" :columns="columns" show-index :expand-type="false" border>
             
             <!-- 是否有效 -->
             <template slot="isok" slot-scope="scope">
